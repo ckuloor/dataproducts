@@ -1,5 +1,5 @@
 ### Introduction
-This repository has the documents R source code files used in developing the data product course final project. 
+This repository has the documents and R source code files used in developing the data product course final project. 
 
 This shyny application is a simple web application to analyze the diamond properties and the average diamond price. The side bar panel has the input controls and the main panel shows the results for the interactions.
 * Choose a Property - This is the diamond property type selector. Make your choice of property type here. 
