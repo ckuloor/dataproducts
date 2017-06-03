@@ -24,8 +24,7 @@ shinyUI(pageWithSidebar(
                 value = 10)
   
   ),
-  
-  
+    
   # Show the summary chart of the dataset and an HTML table with
   mainPanel(
     plotOutput("summaryChart"), 
