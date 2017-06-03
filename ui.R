@@ -6,7 +6,7 @@ shinyUI(pageWithSidebar(
   # Application title
   headerPanel("Analysis Of Diamonds Dataset"),
   
-  # Sidebar with controls to provides:
+  # Sidebar with controls to provide:
   # 1. a selector for the diamond propery such as cut, clarity and color
   # 2. Based on the selection of the property, the second selector box will change to list unique values for that property
   # 3. Once the property value is chosen, the right side main panel will load a chart and table with some sample
