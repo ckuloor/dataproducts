@@ -13,4 +13,4 @@ This shyny application is a simple web application to analyze the diamond proper
 
 ### Files 
 * ui.R file has UI code
-* server.R file has the R code the server side logic 
+* server.R file has the R code with the server side logic 
