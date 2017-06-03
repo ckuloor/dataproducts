@@ -1,4 +1,4 @@
-Developing Data Products   Shyny Application Pitch
+Developing Data Products   Shiny Application Pitch
 ========================================================
 author: 
 date: 6/2/2017
@@ -35,7 +35,7 @@ head(diamonds, n=4)
 
 Analysis of Diamond Dataset
 ========================================================
-This shyny application is a simple web application to analyze the variation of average diamond price with its properties. The side bar panel has the input controls and the main panel shows the results.
+This shiny application is a simple web application to analyze the variation of average diamond price with its properties. The side bar panel has the input controls and the main panel shows the results.
 * Choose a Property - This is the diamond property type selector. Make your choice of property type here. 
 * Choose a Property Value - Based on the selection of the property type above, this selection box will be populated with unique property values. Make your selection of the value here.
 * Choose Number of Rows to View - Move the slider to select the number of rows to view.
@@ -45,8 +45,8 @@ This shyny application is a simple web application to analyze the variation of a
 Links to Course Work
 ========================================================
 
-[Shyny App](https://ckuloor.shinyapps.io/shinyproject/) - The Shyny Application
+[Shiny App](https://ckuloor.shinyapps.io/shinyproject/) - The Shiny Application
 
 [Source Code](https://github.com/ckuloor/dataproducts) - The source code repository for this project.
 
-[Pitch Presentation](http://rpubs.com/ckuloor/DPShyny) - This presentation
+[Pitch Presentation](http://rpubs.com/ckuloor/DPShiny) - This presentation
