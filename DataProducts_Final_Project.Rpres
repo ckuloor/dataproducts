@@ -1,0 +1,41 @@
+Developing Data Products   Shyny Application Pitch
+========================================================
+author: 
+date: 6/2/2017
+autosize: true
+
+Project Requirements
+========================================================
+
+* Develop a shiny application to show case the ability to build data products. 
+* The application needs to be interactive with some input fields and or buttons that perform some actions on the server and display the result back to the user.
+* The server is also required to do some sort of calculations on a chosen set of data and display the results.
+* Create a pitch presentation about the shyny application.
+
+Data Used
+========================================================
+
+The diamonds data set available as part of ggplot2 R library is used in this application.This dataset has 53940 observations with 10 variables.
+
+```{r}
+library(ggplot2)
+head(diamonds, n=4)
+```
+
+Analysis of Diamond Dataset
+========================================================
+This shyny application is a simple web application to analyze the variation of average diamond price with its properties. The side bar panel has the input controls and the main panel shows the results.
+* Choose a Property - This is the diamond property type selector. Make your choice of property type here. 
+* Choose a Property Value - Based on the selection of the property type above, this selection box will be populated with unique property values. Make your selection of the value here.
+* Choose Number of Rows to View - Move the slider to select the number of rows to view.
+* The main panel on the top right will show a plot of average prices grouped by another property type for the chosen property value. The main panel on the bottom right will show a table of diamonds data for the chosen property value. 
+* Change slider to increase or decrease the number of rows to view.
+
+Links to Course Work
+========================================================
+
+[Shyny App](https://ckuloor.shinyapps.io/shinyproject/) - The Shyny Application
+
+[Source Code](https://github.com/ckuloor/dataproducts) - The source code repository for this project.
+
+[Pitch Presentation](http://rpubs.com/ckuloor/DPShyny) - This presentation
