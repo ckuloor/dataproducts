@@ -3,7 +3,7 @@ library(ggplot2)
 # Define server logic required to summarize and view the R diamonds data set comes the ggplot2 library
 shinyServer(function(input, output, session) {
   
-  #subTable
+  #parse the input selections and prepare a list of unique values
   columnTypeSelected <- reactive({
     selVal <- input$columnType
     if (selVal == 'cut') {
@@ -15,6 +15,7 @@ shinyServer(function(input, output, session) {
     }
   })
   
+  # listen to the UI interaction events and perform some data slicing and dicing for presentation
   observe({
     updateSelectInput(session, "columnValue",
                       choices = columnTypeSelected(),selected = columnTypeSelected()[1]
